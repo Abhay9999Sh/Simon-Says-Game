@@ -1,0 +1,138 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #8eeef8 ;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.reset-btn {
+    background-color: #ff9b00;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-bottom: 0.5rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 3rem;
+    color: #1a1c55;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #636fc0;
+    margin-top: 1rem;
+}
+
+.score {
+    font-size: 2rem;
+    color: #24419f;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid #333;
+    margin: 2.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.btn:active {
+    transform: scale(1.05);
+}
+
+.yellow {
+    background-color: #e2eb5f;
+}
+
+.red {
+    background-color: #b76868;
+}
+
+.green {
+    background-color: #4ba4bf;
+} 
+
+.purple {
+    background-color: #305df2;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash {
+    background-color: rgb(131, 252, 18);
+}
+
+@media (max-width: 768px) {
+    .btn {
+        width: 150px;
+        height: 150px;
+        margin: 1.5rem;
+    }
+
+    .score {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .score {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        width: 100px;
+        height: 100px;
+        margin: 1rem;
+    }
+
+    .reset-btn {
+        top: 10px;
+        right: 10px;
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
