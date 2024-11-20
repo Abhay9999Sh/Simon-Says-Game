@@ -6,7 +6,7 @@ A fun and interactive **Simon Says** game built using **HTML**, **CSS**, and **J
 
 ## 🚀 Live Demo
 
-[Play Simon Says Game](#)  
+https://abhay9999sh.github.io/Simon-Says-Game/ 
 
 ---
 
